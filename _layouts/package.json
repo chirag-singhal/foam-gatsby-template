@@ -8,6 +8,7 @@
     "@mdx-js/react": "^1.6.7",
     "gatsby": "^2.23.18",
     "gatsby-plugin-mdx": "^1.2.26",
+    "gatsby-remark-mathjax": "^1.0.0",
     "gatsby-theme-garden": "^0.1.28",
     "gh-pages": "^3.1.0",
     "react": "^16.3.1",
