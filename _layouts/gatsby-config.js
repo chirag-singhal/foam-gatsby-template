@@ -15,6 +15,7 @@ module.exports = {
       options: {
         rootNote: "/readme",
         contentPath: `${__dirname}/..`,
+        mdxOtherwiseConfigured: true,
         ignore: [
           "**/_layouts/**",
           "**/.git/**",
