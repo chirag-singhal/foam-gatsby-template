@@ -5,6 +5,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
+      },
+    },
+    {
       resolve: `gatsby-theme-garden`,
       options: {
         rootNote: "/readme",
@@ -15,12 +21,6 @@ module.exports = {
           "**/.github/**",
           "**/.vscode/**",
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        extensions: [`.mdx`, `.md`],
       },
     },
   ],
