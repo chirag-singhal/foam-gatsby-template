@@ -4,7 +4,10 @@
   "description": "",
   "version": "1.0.0",
   "dependencies": {
+    "@mdx-js/mdx": "^1.6.7",
+    "@mdx-js/react": "^1.6.7",
     "gatsby": "^2.23.18",
+    "gatsby-plugin-mdx": "^1.2.26",
     "gatsby-theme-garden": "^0.1.28",
     "react": "^16.3.1",
     "react-dom": "^16.3.1"
